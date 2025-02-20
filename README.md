@@ -14,9 +14,9 @@ sh <(wget -O - https://raw.githubusercontent.com/savvadim/podkop-v0.2.5/refs/hea
 Для AmneziaWG скрипт проверяет наличие пакетов под вашу платформу в [стороннем репозитории](https://github.com/Slava-Shchipunov/awg-openwrt/releases), так как в официальном репозитории OpenWRT они отсутствуют, и автоматически их устанавливает.
 
 # Обновление
-Та же самая команда, что для установки. Скрипт обнаружит уже установленный podkop и предложит обновиться.
+Скрипт обнаружит уже установленный podkop и предложит обновиться. Подтягивается актуальная версия из репозитория [itdoginfo](https://github.com/itdoginfo/podkop)
 ```
-sh <(wget -O - https://raw.githubusercontent.com/savvadim/podkop-v0.2.5/refs/heads/main/install.sh)
+sh <(wget -O - https://raw.githubusercontent.com/itdoginfo/podkop/refs/heads/main/install.sh)
 ```
 
 # Удаление
